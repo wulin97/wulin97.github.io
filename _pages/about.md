@@ -32,10 +32,10 @@ I am currently an AI engineer at Huawei. I achieved my master degree from School
 - *2017.02 - 2019.06*, [Central China Normal University (CCNU)](http://english.ccnu.edu.cn/About/About_CCNU.htm), Chinese Language and literature, B.A, Wuhan, China.
 
 # 💻 Experience
-- *2022.06 - present*, [Huawei Tech.](https://www.huawei.com/en/corporate-information), AI Engineer, Nanjing, China.
-- *2021.04 - 2021.07*, [Arcsoft Tech.](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China.
+- *2022.06 - present*, [Huawei](https://www.huawei.com/en/corporate-information), AI Engineer, Nanjing, China.
+- *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China.
 - *2020.06 - 2020.08*, [Sinovation Ventures · DeeCamp](https://www.sinovationventures.com/ai), 3D Vision Algorithm (Intern), Virtual.
-- *2019.03 - 2019.06*, [Xiaomi Tech.](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China.
+- *2019.03 - 2019.06*, [Xiaomi](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China.
 
 # 📝 Publications 
 
