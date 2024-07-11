@@ -61,7 +61,7 @@ I am currently an AI engineer at Huawei. I achieved my master degree from School
 - Huawei Scholarship, 2022.6
 - Shanghai Zhangjiang Hi-Tech Scholarship, 2022.6
 - China Electronics Technology Group Corporation LES Scholarship, 2021.6
-- National Encouragement Scholarship, three years in a row, 2016-2018
+<!-- - National Encouragement Scholarship, three years in a row, 2016-2018 -->
 
 <!-- <details> 
 <summary>Scholarship</summary>
