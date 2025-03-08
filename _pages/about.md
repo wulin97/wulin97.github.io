@@ -65,16 +65,15 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 
 # 🎖️ Honor and Award
-- PhD Scholarship (Full Tuition Waiver + Stipend), CoSE and EPSRC, From 2024.10
-- Huawei Scholarship, 2022.6
-- Shanghai Zhangjiang Hi-Tech Scholarship, 2022.6
-- China Electronics Technology Group Corporation LES Scholarship, 2021.6
-- National Encouragement Scholarship, three years in a row, 2016-2018
+- PhD Scholarship (Full Tuition Waiver + Stipend), ~£(30k + 20k) * 3.5, CoSE and EPSRC, From 2024.10
+- Huawei Scholarship, ¥8k, 2022.6
+- Shanghai Zhangjiang Hi-Tech Scholarship, ¥8k, 2022.6
+- China Electronics Technology Group Corporation LES Scholarship, ¥10k, 2021.6
+- National Encouragement Scholarship, three years in a row, ¥5k * 3, 2016-2018
 
-- Winner Award in Huawei ICT AI Algorithm Competition (2%), 2024.9
-- Winner, Zhuhai Wanshan International Intelligent Vessel Competition (IIVC), 2020.11
+- Winner, Huawei ICT AI Algorithm Competition (2%), ¥3k, 2024.9
+- Winner, Zhuhai Wanshan International Intelligent Vessel Competition (IIVC) (2.5%), $5k, 2020.11
 - Second prize, National Postgraduate Mathematical Contest in Modeling, two years in a row, 2019-2020
-- Winner in Zhuhai Wanshan International Intelligent Vessel Competition (2.5%), 2020.11
 - Meritorious Winner in American International Mathematical Contest in Modeling (6.5%), 2018.2
 
 <!-- <details> 
