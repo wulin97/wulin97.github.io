@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Lin WU"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "AI Engineer"
-  location         : "Nanjing@China"
-  employer         :
+  bio              : "PhD Student"
+  location         : "Glasgow@Scotland"
+  employer         : "University of Glasgow"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=99B_UgcAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=6w59cyEAAAAJ"
   email            : "fiftywu@outlook.com"
   researchgate     : "https://www.researchgate.net/profile/Lin-Wu-69"
   uri              :
@@ -103,7 +103,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 
 # Markdown Processing
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
