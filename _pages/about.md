@@ -24,7 +24,7 @@ I am currently an AI engineer at Huawei. I achieved my master degree from School
 
 
 # 🔥 News
-- *2024.7*: &nbsp;🎉🎉 I start this homepage!
+- *2024.7*: &nbsp;🎉🎉 I start this homepage! ok
 
 # 📖 Educations
 - *2019.09 - 2022.06*, [Southeast University (SEU)](https://www.seu.edu.cn/english/22456/list.htm), Control Engineering, M.E, Nanjing, China.
