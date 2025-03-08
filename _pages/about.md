@@ -26,19 +26,19 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 - *2024.10*: &nbsp;🎉🎉 I arrived in Scotland, met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) group](https://air-lan.github.io/AIR-Lab/)!
 - *2024.7*: &nbsp;🎉🎉 I am honored to have received a 3.5-year scholarship as an international PhD student, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the College of Science and Engineering and EPSRC.
 
-# 📖 Educations
+# 📖 Education
 - *2024.10 - present*, [University of Glasgow (UoG)](https://www.gla.ac.uk/explore/awardsandrankings/), Elec & Elec Engineering, Ph.D student, Glasgow, United Kingdom.
 - *2019.09 - 2022.06*, [Southeast University (SEU)](https://www.seu.edu.cn/english/22456/list.htm), Control Engineering, M.E, Nanjing, China.
 - *2015.09 - 2019.06*, [Wuhan University of Technology (WUT)](http://english.whut.edu.cn/abo/), Automation, B.E, Wuhan, China.
 - *2017.02 - 2019.06*, [Central China Normal University (CCNU)](http://english.ccnu.edu.cn/About/About_CCNU.htm), Chinese Language and literature, B.A, Wuhan, China.
 
 # 💻 Experience
-- *2022.06 - present*, [Huawei](https://www.huawei.com/en/corporate-information), AI Engineer (Full-time), Nanjing, China.
+- *2022.06 - 2024.9*, [Huawei](https://www.huawei.com/en/corporate-information), AI Engineer (Full-time), Nanjing, China.
 - *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China.
 - *2020.06 - 2020.08*, [Sinovation Ventures · DeeCamp](https://www.sinovationventures.com/ai), 3D Vision Algorithm (Intern), Virtual.
 - *2019.03 - 2019.06*, [Xiaomi](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China.
 
-# 📝 Publications 
+# 📝 Publication
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -56,7 +56,7 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 - **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[paper]](https://doi.org/10.1109/lsp.2021.3123907) [[code]](https://github.com/fiftywu/Multimodal-VPR)
 
-# 💡 Patents
+# 💡 Patent
 
 - **Lin Wu**, Bisheng Wang, Bin Yu, Zhengping Jia, Regex-based Interactive Named Entity Recognition via Active Learning, Submitted to Chinese Patent, 2024
 - Bin Yu, **Lin Wu**, Zhengping Jia, Efficient Multi-order Tensor Collaborative Search Engine, Submitted to Chinese Patent, 2024
@@ -64,7 +64,7 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 - **Lin Wu**, Zhao Wang, Wireless Signal Based Space Division using Multidimensional Scaling, [Chinese Patent](https://patents.google.com/patent/CN110764049B/zh), CN110764049B, **Grant**, 2019
 
 
-# 🎖️ Honors and Awards
+# 🎖️ Honor and Award
 - PhD Scholarship (Full Tuition Waiver + Stipend), CoSE and EPSRC, From 2024.10
 - Huawei Scholarship, 2022.6
 - Shanghai Zhangjiang Hi-Tech Scholarship, 2022.6
@@ -114,5 +114,5 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 - Nonlinear System Analysis, SEU, 2022 Spring
  
 
-# 💬 Talks
+# 💬 Talk
 - *2023.10*, Transformer and Large Language Model Architecture, Data Storage Research Department, Huawei.

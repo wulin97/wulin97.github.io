@@ -6,19 +6,19 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
   
   - title: "Experience"
     url: "/#-experience"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Publication"
+    url: "/#-publication"
 
   - title: "Teaching"
     url: "/#-teaching"
 
-  - title: "Talks"
-    url: "/#-talks"
+  - title: "Talk"
+    url: "/#-talk"
 
 
