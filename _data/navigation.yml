@@ -20,5 +20,7 @@ main:
 
   - title: "Talk"
     url: "/#-talk"
-
+    
+  - title: "Reference"
+    url: "/#-reference"
 

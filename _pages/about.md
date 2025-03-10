@@ -23,18 +23,20 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 I arrived in Scotland, met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) group](https://air-lan.github.io/AIR-Lab/)!
+- *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning.
+- *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d.
+- *2024.10*: &nbsp;🎉🎉 I arrived in Scotland, met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/)!
 - *2024.07*: &nbsp;🎉🎉 I am honored to have received a 3.5-year scholarship as an international PhD student, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the College of Science and Engineering and EPSRC.
 
 # 📖 Education
 - *2024.10 - present*, [University of Glasgow (UoG)](https://www.gla.ac.uk/explore/awardsandrankings/), Elec & Elec Engineering, Ph.D student, Glasgow, United Kingdom.
-- *2019.09 - 2022.06*, [Southeast University (SEU)](https://www.seu.edu.cn/english/22456/list.htm), Control Engineering, M.E, Nanjing, China.
-- *2015.09 - 2019.06*, [Wuhan University of Technology (WUT)](http://english.whut.edu.cn/abo/), Automation, B.E, Wuhan, China.
+- *2019.09 - 2022.06*, [Southeast University (SEU)](https://www.seu.edu.cn/english/22456/list.htm), Control Engineering, M.E, Nanjing, China. [GPA: 3.77/4.0]
+- *2015.09 - 2019.06*, [Wuhan University of Technology (WUT)](http://english.whut.edu.cn/abo/), Automation, B.E, Wuhan, China. [GPA: 3.90/4.0, Rank: 5/220]
 - *2017.02 - 2019.06*, [Central China Normal University (CCNU)](http://english.ccnu.edu.cn/About/About_CCNU.htm), Chinese Language and literature, B.A, Wuhan, China.
 
 # 💻 Experience
-- *2022.06 - 2024.09*, [Huawei](https://www.huawei.com/en/corporate-information), AI Engineer (Full-time), Nanjing, China.
-- *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China.
+- *2022.06 - 2024.09*, [Huawei](https://www.huawei.com/en/corporate-information), AI Engineer (Full-time), Nanjing, China. 
+- *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China
 - *2020.06 - 2020.08*, [Sinovation Ventures · DeeCamp](https://www.sinovationventures.com/ai), 3D Vision Algorithm (Intern), Virtual.
 - *2019.03 - 2019.06*, [Xiaomi](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China.
 
@@ -52,9 +54,12 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 </div>
 </div> -->
 
-- Teng Wang, **Lin Wu**(Co-first), Changyin Sun, A Coarse-to-fine Approach for Dynamic-to-static Image Translation, Pattern Recognition (JCR Q1), 2022. [[paper]](https://doi.org/10.1016/j.patcog.2021.108373) [[code]](https://github.com/fiftywu/Coarse2Fine-DSIT)
+- Teng Wang, **Lin Wu**(Co-first), Changyin Sun, A Coarse-to-fine Approach for Dynamic-to-static Image Translation, Pattern Recognition (JCR Q1), 2022. [[link]](https://doi.org/10.1016/j.patcog.2021.108373)
 
-- **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[paper]](https://doi.org/10.1109/lsp.2021.3123907) [[code]](https://github.com/fiftywu/Multimodal-VPR)
+- **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
+
+- **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
+
 
 # 💡 Patent
 
@@ -115,3 +120,8 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 # 💬 Talk
 - *2023.10*, Transformer and Large Language Model Architecture, Data Storage Research Department, Huawei.
+
+# 💕 Reference
+- [Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/), Leverhulme Early Career Fellow at James Watt School of Engineering, University of Glasgow, U.K
+- [Hazel Doughty](https://hazeldoughty.github.io/), Assistant professor at  Leiden Institute for Advanced Computer Science, Leiden University, Netherlands
+- [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ), Associate professor at School of Automation, Southeast University, China
