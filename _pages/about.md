@@ -23,8 +23,10 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 
 # 🔥 News
+- *2025.05*: &nbsp; made a new submission to NeurIPS 2025, focus on Motion diffusion with constraints.
+- *2025.04*: &nbsp; made a new submission to ACM MM 2025, focus on leveraging LLM to understanding 3d.
 - *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning.
-- *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d.
+<!-- - *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d. -->
 - *2024.10*: &nbsp;🎉🎉 I arrived in Scotland, met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/)!
 - *2024.07*: &nbsp;🎉🎉 I am honored to have received a 3.5-year scholarship as an international PhD student, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the College of Science and Engineering and EPSRC.
 
