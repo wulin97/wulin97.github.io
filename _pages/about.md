@@ -23,9 +23,11 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 
 
 # 🔥 News
-- *2025.05*: &nbsp; made a new submission to NeurIPS 2025, focus on Motion diffusion with constraints.
-- *2025.04*: &nbsp; made a new submission to ACM MM 2025, focus on leveraging LLM to understanding 3d.
-- *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning.
+- *2025.07*: &nbsp;🎉🎉 Excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](https://www.asg.ed.tum.de/lfk/team/members/yu-feng/) for providing this opportunity!
+- *2025.07*: &nbsp;🎉🎉 Our work on affordance learning for robotics has been accepted as a full paper at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)!
+- *2025.05*: &nbsp; made a new submission to NeurIPS 2025, focus on motion diffusion with constraints.
+- *2025.04*: &nbsp; made a new submission to ACM Multimedia (MM) 2025, focus on leveraging LLM to understanding 3d.
+<!-- - *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning. -->
 <!-- - *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d. -->
 - *2024.10*: &nbsp;🎉🎉 I arrived in Scotland, met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/)!
 - *2024.07*: &nbsp;🎉🎉 I am honored to have received a 3.5-year scholarship as an international PhD student, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the College of Science and Engineering and EPSRC.
@@ -55,12 +57,13 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div> -->
+- **Lin Wu**, Wei Wei, Peizhuo Yu, Jianglin Lan, Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment, ACM Multimedia (MM), *CCF-A*, 2025. [[link]](https://wulin97.github.io/)
 
 - Teng Wang, **Lin Wu**(Co-first), Changyin Sun, A Coarse-to-fine Approach for Dynamic-to-static Image Translation, Pattern Recognition (JCR Q1), 2022. [[link]](https://doi.org/10.1016/j.patcog.2021.108373)
 
 - **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
 
-- **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
+- **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://arxiv.org/pdf/2412.17105)
 
 
 # 💡 Patent
@@ -124,6 +127,6 @@ I am a first-year PhD student at the University of Glasgow, supervised by Dr. [J
 - *2023.10*, Transformer and Large Language Model Architecture, Data Storage Research Department, Huawei.
 
 # 💕 Reference
-- [Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/), Leverhulme Early Career Fellow at James Watt School of Engineering, University of Glasgow, U.K
+- [Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/), Assistant professor at James Watt School of Engineering, University of Glasgow, U.K
 - [Hazel Doughty](https://hazeldoughty.github.io/), Assistant professor at  Leiden Institute for Advanced Computer Science, Leiden University, Netherlands
 - [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ), Associate professor at School of Automation, Southeast University, China
