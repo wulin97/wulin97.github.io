@@ -40,7 +40,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 <!-- - *2025.04*: &nbsp; made a new submission to ACM Multimedia (MM) 2025, focus on leveraging LLM to understanding 3d. -->
 <!-- - *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning. -->
 <!-- - *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d. -->
-- *2024.10*: &nbsp;🎉🎉 met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG!
+<!-- - *2024.10*: &nbsp;🎉🎉 met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG! -->
 - *2024.07*: &nbsp;🎉🎉 honored to have received a 3.5-year scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
 
 # 📖 Education
