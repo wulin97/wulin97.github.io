@@ -27,9 +27,9 @@ author:
   location         : "Glasgow@Scotland"
   employer         : "University of Glasgow"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=6w59cyEAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=6w59cyEAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "fiftywu@outlook.com"
-  researchgate     : "https://www.researchgate.net/profile/Lin-Wu-69"
+  researchgate     : ""
   uri              :
   bitbucket        :
   codepen          :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "wulin97"
+  github           : ""
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0002-7376-5384"
+  orcid            : ""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
