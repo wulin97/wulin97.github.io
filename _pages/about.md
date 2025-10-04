@@ -50,7 +50,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 - *2017.02 - 2019.06*, [Central China Normal University (CCNU)](http://english.ccnu.edu.cn/About/About_CCNU.htm), Chinese Language and literature, B.A, Wuhan, China.
 
 # 💻 Experience
-<!-- - *2025.07 - 2025.08*, [TUM](https://www.asg.ed.tum.de/lfk/home/), Visiting PhD Researcher, Munich, Germany.  -->
+- *2025.07 - 2025.08*, [TUM](https://www.asg.ed.tum.de/lfk/home/), Visiting PhD Researcher, Munich, Germany. 
 - *2022.06 - 2024.09*, [Huawei](https://www.huawei.com/en/corporate-information), Engineer (Full-time), Nanjing, China. 
 <!-- - *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China -->
 <!-- - *2020.06 - 2020.08*, [Sinovation Ventures · DeeCamp](https://www.sinovationventures.com/ai), 3D Vision Algorithm (Intern), Virtual. -->
@@ -58,21 +58,20 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 
 # 📝 Publication
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/hoi-dyn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion](https://arxiv.org/pdf/2507.01737)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Lin Wu**, Zhixiang Chen, Jianglin Lan
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project Website**](projects/hoi-dyn/index.html)
 </div>
-</div> -->
+</div>
 
 - **Lin Wu**, Zhixiang Chen, Jianglin Lan, HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion, NeurIPS, CORE-A*, 2025. [[link]](https://arxiv.org/pdf/2507.01737)
 
-<!-- - **Lin Wu**, Wei Wei, Peizhuo Yu, Jianglin Lan, Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment, ACM Multimedia (MM), CORE-A*, 2025. [[link]](https://wulin97.github.io/) -->
+- **Lin Wu**, Wei Wei, Peizhuo Yu, Jianglin Lan, Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment, ACM Multimedia (MM), CORE-A*, 2025. [[link]](https://wulin97.github.io/)
 
 - Teng Wang, **Lin Wu**(Co-first), Changyin Sun, A Coarse-to-fine Approach for Dynamic-to-static Image Translation, Pattern Recognition (JCR Q1), 2022. [[link]](https://doi.org/10.1016/j.patcog.2021.108373)
 
