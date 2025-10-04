@@ -14,32 +14,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Checkout 仓库
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        submodules: false
-        fetch-depth: 0
+      # 1. Checkout 仓库
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 0
 
-    # 2. 安装 Python 依赖
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-pip python3-setuptools
-        pip3 install --upgrade pip
+      # 2. 安装 Python 依赖
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip python3-setuptools
+          pip3 install --upgrade pip
 
-    # 3. 运行抓取脚本
-    - name: Run Google Scholar Crawler
-      run: |
-        cd google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ../google_scholar_crawler/results
-        git init
-        git config user.name "${GITHUB_ACTOR}"
-        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      # 3. 运行抓取脚本
+      - name: Run Google Scholar Crawler
+        run: |
+          cd google_scholar_crawler
+          pip3 install -r requirements.txt
+          python3 main.py
+          cd ../google_scholar_crawler/results
+          git init
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add *.json
+          git commit -m "Updated Citation Data"
+          # 使用个人访问 token (PAT) push，避免 403 错误
+          git push "https://${GITHUB_ACTOR}:${{ secrets.GH_PAT }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
