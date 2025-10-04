@@ -17,11 +17,3 @@ jobs:
       with:
         submodules: false
         fetch-depth: 0   # 拉完整历史，避免残留 submodule 指针
-
-    # 2. Deploy to GitHub Pages
-    - name: Deploy HOI-Dyn Website
-      uses: peaceiris/actions-gh-pages@v6
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./projects/hoi-dyn
-        publish_branch: gh-pages
