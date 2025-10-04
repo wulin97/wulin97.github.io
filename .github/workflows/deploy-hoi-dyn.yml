@@ -38,11 +38,8 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site
-          # 拷贝主页
-          cp -r _site_main/* _site/
-          # 拷贝子站
-          cp -r projects/* _site/*
-          # 删除临时目录
+          cp -a _site_main/. _site/
+          cp -r projects/* _site/
           rm -rf _site_main
 
 
