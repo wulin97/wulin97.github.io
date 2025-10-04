@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Checkout 仓库，不拉 submodule
+    # 1. Checkout 仓库
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
@@ -21,7 +21,7 @@ jobs:
     - name: Deploy HOI-Dyn Website
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.GH_PAT }}  # 使用你的 PAT
+        personal_token: ${{ secrets.GH_PAT }}
         publish_dir: ./projects/hoi-dyn
         publish_branch: gh-pages
         destination_dir: hoi-dyn
