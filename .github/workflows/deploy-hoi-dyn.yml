@@ -20,7 +20,7 @@ jobs:
 
     # 2. Deploy HOI-Dyn 到 gh-pages 的 hoi-dyn 目录
     - name: Deploy HOI-Dyn Website
-      uses: peaceiris/actions-gh-pages@v6
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./projects/hoi-dyn      # 本地网页文件夹
