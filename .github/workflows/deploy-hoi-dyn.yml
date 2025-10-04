@@ -36,9 +36,9 @@ jobs:
     - name: Build Jekyll site
       run: bundle exec jekyll build -d _site
 
-    # 4. Copy HOI-Dyn project into _site/hoi-dyn
-    - name: Copy HOI-Dyn project
-      run: cp -r projects/hoi-dyn _site/hoi-dyn
+    # 4. Move HOI-Dyn project into _site/hoi-dyn
+    - name: Move HOI-Dyn project
+      run: mv projects/hoi-dyn _site/hoi-dyn
 
     # 5. Deploy all content in one push
     - name: Deploy all
