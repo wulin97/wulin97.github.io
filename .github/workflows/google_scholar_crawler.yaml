@@ -9,7 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+  - uses: actions/checkout@v2
+    with:
+      submodules: false
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
