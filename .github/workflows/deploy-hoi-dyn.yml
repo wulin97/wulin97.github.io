@@ -1,4 +1,4 @@
-name: Deploy HOI-Dyn Website
+name: Deploy Website
 
 on:
   push:
@@ -18,6 +18,31 @@ jobs:
         submodules: false
         fetch-depth: 0
 
+    # 2. Setup Ruby/Jekyll
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.2
+
+    - name: Install Jekyll
+      run: |
+        gem install bundler
+        bundle install
+
+    # 3. Build Jekyll site
+    - name: Build Jekyll site
+      run: bundle exec jekyll build -d _site_main
+
+    # 4. Deploy main site to gh-pages root
+    - name: Deploy main site
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GH_PAT }}
+        publish_dir: ./_site_main
+        publish_branch: gh-pages
+        keep_files: true  # 保留 gh-pages 上已有文件（如 HOI-Dyn）
+
+    # 5. Deploy HOI-Dyn to gh-pages/hoi-dyn
     - name: Deploy HOI-Dyn Website
       uses: peaceiris/actions-gh-pages@v3
       with:
@@ -25,4 +50,4 @@ jobs:
         publish_dir: ./projects/hoi-dyn
         publish_branch: gh-pages
         destination_dir: hoi-dyn
-        keep_files: true                     # 保留 gh-pages 分支原有文件
+        keep_files: true
