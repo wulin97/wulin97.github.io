@@ -47,3 +47,4 @@ jobs:
         personal_token: ${{ secrets.GH_PAT }}
         publish_dir: ./_site
         publish_branch: gh-pages
+        keep_files: false
