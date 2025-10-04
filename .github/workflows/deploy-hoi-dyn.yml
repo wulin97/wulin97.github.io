@@ -25,3 +25,4 @@ jobs:
         publish_dir: ./projects/hoi-dyn
         publish_branch: gh-pages
         destination_dir: hoi-dyn
+        keep_files: true                     # 保留 gh-pages 分支原有文件
