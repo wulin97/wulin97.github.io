@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false  # 不取消旧部署，等待完成
 
     steps:
     # 1. Checkout 仓库
