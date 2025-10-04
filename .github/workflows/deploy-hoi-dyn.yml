@@ -40,7 +40,7 @@ jobs:
         personal_token: ${{ secrets.GH_PAT }}
         publish_dir: ./_site_main
         publish_branch: gh-pages
-        keep_files: true  # 保留 gh-pages 上已有文件（如 HOI-Dyn）
+        keep_files: false  # 保留 gh-pages 上已有文件（如 HOI-Dyn）
 
     # 5. Deploy HOI-Dyn to gh-pages/hoi-dyn
     - name: Deploy HOI-Dyn Website

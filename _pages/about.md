@@ -65,7 +65,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 
 **Lin Wu**, Zhixiang Chen, Jianglin Lan
 
-[**Project Website**](projects/hoi-dyn/index.html)  <strong><span class='show_paper_citations' data='6w59cyEAAAAJ:eQOLeE2rZwMC'></span></strong>
+[**Project Website**](https://wulin97.github.io/hoi-dyn)  <strong><span class='show_paper_citations' data='6w59cyEAAAAJ:eQOLeE2rZwMC'></span></strong>
 </div>
 </div>
 
