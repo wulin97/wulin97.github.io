@@ -19,8 +19,7 @@ redirect_from:
 
 Welcome to my homepage!
 
-
-I'm a PhD student at the University of Glasgow, supervised by Dr. [Jianglin Lan](https://scholar.google.co.uk/citations?user=Z7kvat4AAAAJ&hl=en).
+I'm second-year PhD student at the University of Glasgow, supervised by Dr. [Jianglin Lan](https://scholar.google.co.uk/citations?user=Z7kvat4AAAAJ&hl=en).
 <!-- , focusing on multimodal understanding & generation.  -->
 <!-- Before this, I worked as an Engineer at Huawei from Jun. 2022 to Sep. 2024.  -->
 I completed my Master's at Southeast University in China, under Prof. [Changyin Sun](https://www.researchgate.net/profile/Changyin-Sun) and [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ).

@@ -34,23 +34,16 @@ jobs:
 
     # 3. Build Jekyll site
     - name: Build Jekyll site
-      run: bundle exec jekyll build -d _site_main
+      run: bundle exec jekyll build -d _site
 
-    # 4. Deploy main site to gh-pages root
-    - name: Deploy main site
+    # 4. Copy HOI-Dyn project into _site/hoi-dyn
+    - name: Copy HOI-Dyn project
+      run: cp -r projects/hoi-dyn _site/hoi-dyn
+
+    # 5. Deploy all content in one push
+    - name: Deploy all
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.GH_PAT }}
-        publish_dir: ./_site_main
+        publish_dir: ./_site
         publish_branch: gh-pages
-        keep_files: false  # 保留 gh-pages 上已有文件（如 HOI-Dyn）
-
-    # 5. Deploy HOI-Dyn to gh-pages/hoi-dyn
-    - name: Deploy HOI-Dyn Website
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.GH_PAT }}
-        publish_dir: ./projects/hoi-dyn
-        publish_branch: gh-pages
-        destination_dir: hoi-dyn
-        keep_files: true
