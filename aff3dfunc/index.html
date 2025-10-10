@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="3D Affordance Understanding.">
+  <meta name="keywords" content="Open-Vocabulary, Affordance Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation
+    Alignment</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://wulin97.github.io/">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://wulin97.github.io/aff3dfunc/">
+              ACMMM'25 Aff3DFunc
+            </a>
+            <a class="navbar-item" href="https://wulin97.github.io/hoi-dyn/">
+              NeurIPS'25 HOI-Dyn
+            </a>
+            <a class="navbar-item" href="https://wulin97.github.io">
+              TODO
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Open-Vocabulary 3D Affordance Understanding via Functional Text
+              Enhancement and Multilevel Representation Alignment</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://wulin97.github.io/">Lin Wu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://openreview.net/profile?id=%7EWei_Wei42">Wei Wei</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://openreview.net/profile?id=~Peizhuo_Yu1">Peizhuo Yu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.co.uk/citations?hl=en&user=Z7kvat4AAAAJ&view_op=list_works&sortby=pubdate">Jianglin
+                  Lan</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Glasgow</span>
+            </div>
+
+
+            <div class="is-size-5 venue">
+              <span class="author-block">ACMMM 2025</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/wulin97/Aff3DFunc" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/wulin97/Aff3DFunc" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/?" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/wulin97/Aff3DFunc"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/demo.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          <span class="dnerf">Aff3dFunc</span> demo.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Understanding 3D affordance is essential for agents to effectively interact with real-world environments,
+              encompassing tasks such as manipulation and navigation.
+              Existing methods typically support open-vocabulary queries through label-based language descriptions but
+              often suffer from under-generalization and insufficient discrimination in their representations.
+              However, affordance understanding requires constructing a coherent semantic landscape from fragmented
+              linguistic expressions—one that maintains intra-class diversity while minimizing inter-class overlap.
+              To overcome these challenges, we introduce Aff3DFunc, a framework designed to enhance the alignment
+              between affordance and 3D geometry.
+              It begins with a functional text enhancement module grounded in the Information Bottleneck (IB) principle,
+              which strategically enriches affordance semantics by maximizing both relevance and diversity.
+              A dual-encoder architecture is then employed to extract embeddings from both point clouds and text.
+              To bridge the modality gap, we further propose a multilevel representation alignment strategy that
+              incorporates supervised contrastive learning,
+              reinforcing semantic–geometric correspondence in a part-to-whole manner.
+              Extensive experiments demonstrate that our approach significantly enhances the understanding of affordance
+              complexity.
+              The learned representations exhibit high adaptability to diverse text queries, particularly in zero-shot
+              settings.
+              Furthermore, the real-world robot validation confirms that our method improves affordance understanding,
+              enabling more fine-grained manipulation tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/" frameborder="0" allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Method Overview</h2>
+          <div>
+            <img src="./static/images/framework.png" alt="Interpolate start reference image." width="100%">
+            <p>
+              The proposed framework <i>Aff3DFunc</i> includes: (a) <b>Point Cloud Encoder</b>, extracting geometric
+              features from input point clouds;
+              (b) <b>Text Encoder</b>, where the FTE module enriches affordance semantics via fine-grained descriptions;
+              (c) <b>Representation Alignment</b>, aligning multimodal embeddings with cross-entropy and supervised
+              contrastive losses across multiple levels;
+              (d) <b>Cross Attention</b>, enhancing geometric features via point-wise relationship modeling using
+              Multi-Head Attention
+            </p>
+          </div>
+
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve">
+            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/label_faucet.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/label_vase.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-shiba">
+            <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/label_knife.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-fullbody">
+            <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/ques_vase_pour.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-blueshirt">
+            <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/ques_keyboard_press.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-mask">
+            <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/ques_microwave_open.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Animation. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-4">Safety-critical Manipulation</h3>
+          <div class="content has-text-justified">
+            <p>we conducted real-world experiments using a Unitree GO2 mobile platform equipped with a 6-DoF D1 robotic
+              arm and a parallel gripper. We focus on manipulation tasks that require precise affordance understanding,
+              such as distinguishing between a knife's handle (graspable) and blade (hazardous). </p>
+          </div>
+          <div class="content has-text-centered">
+            <video id="replay-video" controls muted preload playsinline width="65%">
+              <source src="./static/videos/robot_arm.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!--/ Animation. -->
+      </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="container is-max-desktop">
+            <h2 class="title is-4">t-SNE visualizations for learned geometric embeddings</h2>
+            <div>
+              <figure class="image is-centered">
+                <img src="./static/images/tsne.png" alt="image"
+                  style="display:block; margin-left:auto; margin-right:auto; width:80%;">
+              </figure>
+              <p>
+                We compute the class centers and use the kNN to select the N/2 points nearest to each center, from which
+                we construct convex hulls.
+                As shown below, our method yields more distinct category boundaries and greater intra-class spread,
+                reflecting the effects of Functional Text Enhancement in enhancing both separability and diversity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{lin2025aff3dfunc,
+  author    = {Lin Wu, Wei Wei, Peizhuo Yu, Jianglin Lan},
+  title     = {Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment},
+  journal   = {ACM MM},
+  year      = {2025},
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/wulin97">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/wulin97" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Thank <a href="https://github.com/nerfies/nerfies.github.io"> Nerfies </a> for sharing the <a
+                href="https://github.com/nerfies/nerfies.github.io"> source code</a> of this website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
