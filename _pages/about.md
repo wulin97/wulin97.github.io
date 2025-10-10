@@ -27,6 +27,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 
 
 # 🔥 News
+- *2025.10*: &nbsp;🎉🎉 excited to share our paper has been selected as the **Best Paper Candidate** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)! 
 - *2025.09*: &nbsp;🎉🎉 our work on [learning interaction dynamics for motion diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
 <!-- - *2025.09*: &nbsp;🎉🎉 a joint work submitted to WACV 2026, focus on motion generation. -->
 <!-- - *2025.09*: &nbsp;🎉🎉 a joint work submitted to ICLR 2026, focus on reinforcement learning. -->
@@ -39,7 +40,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 <!-- - *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning. -->
 <!-- - *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d. -->
 <!-- - *2024.10*: &nbsp;🎉🎉 met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG! -->
-- *2024.07*: &nbsp;🎉🎉 honored to have received a 3.5-year scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
+- *2024.07*: &nbsp;🎉🎉 honored to have received a 3.5-year PhD scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
 
 # 📖 Education
 - *2024.10 - present*, [University of Glasgow (UoG)](https://www.gla.ac.uk/explore/awardsandrankings/), Elec & Elec Engineering, Ph.D student, Glasgow, United Kingdom.
@@ -55,36 +56,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 <!-- - *2019.03 - 2019.06*, [Xiaomi](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China. -->
 
 # 📝 Publication
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/hoi-dyn.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion](https://arxiv.org/pdf/2507.01737)
-
-**Lin Wu**, Zhixiang Chen, Jianglin Lan
-
-[**Project Website**](https://wulin97.github.io/hoi-dyn)  <strong><span class='show_paper_citations' data='6w59cyEAAAAJ:eQOLeE2rZwMC'></span></strong>
-</div>
-</div>
-
-- **Lin Wu**, Zhixiang Chen, Jianglin Lan, HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion, NeurIPS, CORE-A*, 2025. [[link]](https://arxiv.org/pdf/2507.01737)
-
-- **Lin Wu**, Wei Wei, Peizhuo Yu, Jianglin Lan, Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment, ACM Multimedia (MM), CORE-A*, 2025. [[link]](https://wulin97.github.io/)
-
-- Teng Wang, **Lin Wu**(Co-first), Changyin Sun, A Coarse-to-fine Approach for Dynamic-to-static Image Translation, Pattern Recognition (JCR Q1), 2022. [[link]](https://doi.org/10.1016/j.patcog.2021.108373)
-
-- **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
-
-<!-- - **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://arxiv.org/pdf/2412.17105) -->
-
-
-<!-- # 💡 Patent -->
-
-<!-- - **Lin Wu**, Bisheng Wang, Bin Yu, Zhengping Jia, Regex-based Interactive Named Entity Recognition via Active Learning, Submitted to Chinese Patent, 2024 -->
-<!-- - Bin Yu, **Lin Wu**, Zhengping Jia, Efficient Multi-order Tensor Collaborative Search Engine, Submitted to Chinese Patent, 2024 -->
-<!-- - Bin Yu, Bisheng Wang, **Lin Wu**, Scene-Adaptive Image Coding Bitrate Control, [Chinese Patent](https://patents.google.com/patent/CN119071485A/en?oq=CN119071485A), CN119071485A, 2023 -->
-<!-- - **Lin Wu**, Zhao Wang, Wireless Signal Based Space Division using Multidimensional Scaling, [Chinese Patent](https://patents.google.com/patent/CN110764049B/zh), CN110764049B, **Grant**, 2019 -->
-
+{% include_relative publication.md %}
 
 # 🎖️ Honor and Award
 - PhD Scholarship (Full Tuition Waiver + Stipend), CoSE and EPSRC, From 2024.10
@@ -133,6 +105,7 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 # ✨ Teaching
 - ENG5220 Real Time Embedded Programming with Prof. Bernd Porr, UoG, 2025 Spring
 - ENG2083 Introductory Programming 2 with Prof. David Flynn, UoG, 2025 Autumn
+<!-- - ENG1026_9 Engineering Skills 1 Robotics & AI with Dr. Euan Mcgookin -->
 - Nonlinear System Analysis, SEU, 2022 Spring
  
 
