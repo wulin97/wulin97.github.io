@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my homepage!
 
-I'm second-year PhD student at the University of Glasgow, supervised by Dr. [Jianglin Lan](https://scholar.google.co.uk/citations?user=Z7kvat4AAAAJ&hl=en).
+I'm a PhD student at the University of Glasgow, supervised by Dr. [Jianglin Lan](https://scholar.google.co.uk/citations?user=Z7kvat4AAAAJ&hl=en).
 <!-- , focusing on multimodal understanding & generation.  -->
 <!-- Before this, I worked as an Engineer at Huawei from Jun. 2022 to Sep. 2024.  -->
 I completed my Master's at Southeast University in China, under Prof. [Changyin Sun](https://www.researchgate.net/profile/Changyin-Sun) and [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ).
@@ -27,20 +27,12 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 
 
 # 🔥 News
-- *2025.10*: &nbsp;🎉🎉 excited to share our paper has been selected as the **Best Paper Candidate** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)! 
+<!-- - *2025.10*: &nbsp;🎉🎉 excited to share our paper has been selected as the **Best Paper Candidate** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)!  -->
 - *2025.09*: &nbsp;🎉🎉 our work on [learning interaction dynamics for motion diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
-<!-- - *2025.09*: &nbsp;🎉🎉 a joint work submitted to WACV 2026, focus on motion generation. -->
-<!-- - *2025.09*: &nbsp;🎉🎉 a joint work submitted to ICLR 2026, focus on reinforcement learning. -->
-<!-- - *2025.09*: &nbsp;🎉🎉 three joint works submitted to ICASSP 2026, focus on multimodal learning. -->
-<!-- - *2025.08*: &nbsp;🎉🎉 a joint work submitted to RA-L, focus on reinforcement learning. -->
-- *2025.07*: &nbsp;🎉🎉 excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](https://www.asg.ed.tum.de/lfk/team/members/yu-feng/) for providing this opportunity!
+- *2025.07*: &nbsp;🎉🎉 excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](hhttps://yuzzfeng.github.io/) for providing this opportunity!
 - *2025.07*: &nbsp;🎉🎉 our work on affordance learning has been accepted as a full paper at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)! 
-<!-- - *2025.05*: &nbsp; made a new submission to NeurIPS 2025, focus on motion diffusion with constraints. -->
-<!-- - *2025.04*: &nbsp; made a new submission to ACM Multimedia (MM) 2025, focus on leveraging LLM to understanding 3d. -->
-<!-- - *2025.03*: &nbsp; made a new submission to IROS 2025, focus on efficient and safe reinforcement learning. -->
-<!-- - *2024.12*: &nbsp; made a new submission to ICME 2025, focus on leveraging LLM to understanding 3d. -->
-<!-- - *2024.10*: &nbsp;🎉🎉 met my supervisor Dr. Lan, and joined the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG! -->
-- *2024.07*: &nbsp;🎉🎉 honored to have received a 3.5-year PhD scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
+<!-- - *2024.10*: &nbsp;🎉🎉 Beginning a new journey at the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG! -->
+- *2024.07*: &nbsp;🎉🎉 honored to receive PhD scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
 
 # 📖 Education
 - *2024.10 - present*, [University of Glasgow (UoG)](https://www.gla.ac.uk/explore/awardsandrankings/), Elec & Elec Engineering, Ph.D student, Glasgow, United Kingdom.
@@ -102,10 +94,10 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 </pre>
 </details> -->
 
-# ✨ Teaching
+# ✨ Teaching Assistant
 - ENG5220 Real Time Embedded Programming with Prof. Bernd Porr, UoG, 2025 Spring
 - ENG2083 Introductory Programming 2 with Prof. David Flynn, UoG, 2025 Autumn
-<!-- - ENG1026_9 Engineering Skills 1 Robotics & AI with Dr. Euan Mcgookin -->
+- ENG1026_9 Engineering Skills 1 Robotics & AI with Dr. Euan Mcgookin, UoG, 2025 Autum
 - Nonlinear System Analysis, SEU, 2022 Spring
  
 
