@@ -13,7 +13,6 @@
 
 <!-- ACMMM 2025-->
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/proj/aff3dfunc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -24,6 +23,22 @@
 [**Project Website**](https://wulin97.github.io/aff3dfunc) 
 </div>
 </div>
+
+<!-- WACV 2026 -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/proj/segmo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SegMo: Segment-aligned Text to 3D Human Motion Generation](https://wulin97.github.io)
+
+Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen
+
+[**Project Website**](https://wulin97.github.io/segmo)  
+
+</div>
+</div>
+
+- Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen, SegMo: Segment-aligned Text to 3D Human Motion Generation, WACV, CORE-A, 2026. [[link]](https://wulin97.github.io/)
 
 - **Lin Wu**, Zhixiang Chen, Jianglin Lan, HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion, NeurIPS, CORE-A*, 2025. [[link]](https://arxiv.org/pdf/2507.01737)
 
