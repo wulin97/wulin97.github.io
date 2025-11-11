@@ -27,7 +27,8 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 
 
 # 🔥 News
-<!-- - *2025.10*: &nbsp;🎉🎉 excited to share our paper has been selected as the **Best Paper Candidate** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)!  -->
+- *2025.11*: &nbsp;🎉🎉 one joint work on [text-to-motion ](https://arxiv.org/pdf/2507.01737) has been accepted at WACV 2026!!
+- *2025.10*: &nbsp;🎉🎉 thrilled to share our paper has been selected as the **Best Paper Award** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/awards/)!!
 - *2025.09*: &nbsp;🎉🎉 our work on [learning interaction dynamics for motion diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
 - *2025.07*: &nbsp;🎉🎉 excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](hhttps://yuzzfeng.github.io/) for providing this opportunity!
 - *2025.07*: &nbsp;🎉🎉 our work on affordance learning has been accepted as a full paper at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)! 

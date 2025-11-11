@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Text to Human Motion">
+  <meta name="keywords" content="Segment-aligned, Human Motion Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SegMo: Segment-aligned Text to 3D Human Motion Generation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://wulin97.github.io/">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://wulin97.github.io/segmo/">
+              WACV'26 SegMo
+            </a>
+            <a class="navbar-item" href="https://wulin97.github.io/aff3dfunc/">
+              ACMMM'25 Aff3DFunc
+            </a>
+            <a class="navbar-item" href="https://wulin97.github.io/hoi-dyn/">
+              NeurIPS'25 HOI-Dyn
+            </a>
+            <a class="navbar-item" href="https://wulin97.github.io">
+              TODO
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SegMo: Segment-aligned Text to 3D Human Motion Generation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://openreview.net/profile?id=~Bowen_Dang1">Bowen Dang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://wulin97.github.io/">Lin Wu</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=kpC2EG4AAAAJ&hl=en">Xiaohang Yang</a><sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.cl.cam.ac.uk/~zy249/">Zheng Yuan</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=QsiSJkgAAAAJ&hl=zh-CN">Zhixiang Chen</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Sheffield</span>
+              <span class="author-block"><sup>2</sup>University of Glasgow</span>
+              <span class="author-block"><sup>3</sup>Queen Mary, University of London</span>
+            </div>
+
+
+            <div class="is-size-5 venue">
+              <span class="author-block">WACV 2026</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://wulin97.github.io/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://wulin97.github.io/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>Doi</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://wulin97.github.io/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://wulin97.github.io/"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/demo.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          <span class="dnerf">SegMo</span> demo.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Generating 3D human motions from textual descriptions is an important research problem with broad applications in video games, virtual reality, and augmented reality. Recent methods align textual descriptions with human motion at the sequence level, neglecting the internal semantic structure of modalities. 
+              However, both motion descriptions and motion sequences can be naturally decomposed into smaller and semantically coherent segments, 
+              which can serve as the atomic alignment units to achieve finer-grained correspondence. 
+              Motivated by this, we propose SegMo, a novel Segment-aligned text-conditioned human Motion generation framework to achieve fine-grained text–motion alignment. Our framework consists of three modules: 
+              (1) Text Segment Extraction, which decomposes complex textual descriptions into temporally ordered phrases, each representing a simple atomic action; 
+              (2) Motion Segment Extraction, which partitions complete motion sequences into corresponding motion segments; and 
+              (3) Fine-grained Text–Motion Alignment, which aligns text and motion segments with contrastive learning. 
+              Extensive experiments demonstrate that SegMo improves the strong baseline on two widely used datasets, 
+              achieving an improved TOP1 score of 0.553 on the HumanML3D test set. 
+              Moreover, thanks to the learned shared embedding space for text and motion segments, 
+              SegMo can also be applied to retrieval-style tasks such as motion grounding and motion-to-text retrieval.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe 
+              src="https://www.youtube.com/?" 
+              frameborder="0" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Method Overview</h2>
+          <div>
+            <img src="./static/images/framework.png" alt="Interpolate start reference image." width="100%">
+            <p>
+              <b>Left:</b> The Residual VQ-VAE encodes a continuous motion sequence into discrete motion tokens,
+              including base tokens and residual tokens, which will be generated by the mask transformer and residual transformer respectively. 
+              <b>Right:</b> The Mask Transformer predicts the masked base tokens conditioned on the textual description. 
+              To achieve segment-level fine-grained alignment, we introduce a Text Segment Extraction module and a Motion Segment Extraction module, 
+              which extract text and motion segments respectively, and align them through the Fine-grained Text-Motion Alignment module.
+            </p>
+          </div>
+
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{bowen2026segmo,
+  author    = {Bowen Dang, Lin Wu, Xiaohang Yang, Zheng Yuan, Zhixiang Chen},
+  title     = {SegMo: Segment-aligned Text to 3D Human Motion Generation},
+  journal   = {WACV},
+  year      = {2026},
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/wulin97">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/wulin97" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Thank <a href="https://github.com/nerfies/nerfies.github.io"> Nerfies </a> for sharing the <a
+                href="https://github.com/nerfies/nerfies.github.io"> source code</a> of this website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
