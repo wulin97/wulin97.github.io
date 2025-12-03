@@ -48,7 +48,7 @@ Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen
 
 - **Lin Wu**, Teng Wang, Changyin Sun, Multi-modal Visual Place Recognition in Dynamics-Invariant Perception Space, IEEE Signal Processing Letters (JCR Q2), 2021. [[link]](https://doi.org/10.1109/lsp.2021.3123907)
 
-<!-- - **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://arxiv.org/pdf/2412.17105) -->
+- **Lin Wu**, Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization, arXiv, 2024. [[link]](https://arxiv.org/pdf/2412.17105)
 
 
 <!-- # 💡 Patent -->
