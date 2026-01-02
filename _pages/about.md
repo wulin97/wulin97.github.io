@@ -24,9 +24,11 @@ Before this, I worked as an Algorithm Engineer at Huawei from Jun. 2022 to Sep. 
 I completed my Master's at Southeast University in China, under Prof. [Changyin Sun](https://www.researchgate.net/profile/Changyin-Sun) and [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ).
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 Our collaborative work on [text-to-motion generation](https://openreview.net/pdf?id=baU2M5okt9) has been accepted to WACV 2026!
+- *2026.01*: &nbsp;🎉🎉 Happy New Year! excited to be selected as the recipient  of **Travel Grant Award** at [WACV 2026](https://wacv.thecvf.com/).
+- *2025.12*: &nbsp;🎉🎉 Our collaborative work on [Multi-Agent Coordination](https://openreview.net/forum?id=00sD7N1H46) has been accepted to AAMAS 2026!
+- *2025.11*: &nbsp;🎉🎉 Our collaborative work on [Text-to-motion Generation](https://arxiv.org/pdf/2512.21237) has been accepted to WACV 2026!
 - *2025.10*: &nbsp;🎉🎉 thrilled to share our paper has been selected as the **Best Paper Award** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/awards/)!!
-- *2025.09*: &nbsp;🎉🎉 our work on [learning interaction dynamics for motion diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
+- *2025.09*: &nbsp;🎉🎉 our work on [Learning Interaction Dynamics for Motion Diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
 - *2025.07*: &nbsp;🎉🎉 excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](hhttps://yuzzfeng.github.io/) for providing this opportunity!
 - *2025.07*: &nbsp;🎉🎉 our work on affordance learning has been accepted as a full paper at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)! 
 - *2024.10*: &nbsp;🎉🎉 Beginning a new journey at the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG!

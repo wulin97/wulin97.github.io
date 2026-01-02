@@ -38,7 +38,10 @@ Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen
 </div>
 </div>
 
-- Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen, SegMo: Segment-aligned Text to 3D Human Motion Generation, WACV, CORE-A, 2026. [[link]](https://wulin97.github.io/)
+
+- Zhihao Lin, **Lin Wu**, Zhen Tian, Alessio Lomuscio, Jianglin Lan, Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search, AAMAS, CORE-A*, 2026. [[link]](https://openreview.net/forum?id=00sD7N1H46)
+
+- Bowen Dang, **Lin Wu**, Xiaohang Yang, Zheng Yuan, Zhixiang Chen, SegMo: Segment-aligned Text to 3D Human Motion Generation, WACV, CORE-A, 2026. [[link]](https://arxiv.org/pdf/2512.21237)
 
 - **Lin Wu**, Zhixiang Chen, Jianglin Lan, HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion, NeurIPS, CORE-A*, 2025. [[link]](https://arxiv.org/pdf/2507.01737)
 
