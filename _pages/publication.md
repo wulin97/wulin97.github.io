@@ -20,9 +20,9 @@ Humanoid Interaction is currently reserved for future public work.
   title="HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion"
   authors="<strong>Lin Wu</strong>, Zhixiang Chen, Jianglin Lan"
   venue="NeurIPS 2025"
-  project="<https://wulin97.github.io/hoi-dyn>"
-  paper="<https://proceedings.neurips.cc/paper_files/paper/2025/file/82cddd1547dd8e3915d1a220f209e714-Paper-Conference.pdf>"
-  code="<https://github.com/wulin97/HOI-Dyn>"
+  project="https://wulin97.github.io/hoi-dyn"
+  paper="https://proceedings.neurips.cc/paper_files/paper/2025/file/82cddd1547dd8e3915d1a220f209e714-Paper-Conference.pdf"
+  code="https://github.com/wulin97/HOI-Dyn"
   citation="6w59cyEAAAAJ:eQOLeE2rZwMC"
   description=""
 %}
@@ -34,7 +34,7 @@ Humanoid Interaction is currently reserved for future public work.
   title="Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment"
   authors="<strong>Lin Wu</strong>, Wei Wei, Peizhuo Yu, Jianglin Lan"
   venue="ACM Multimedia (MM) 2025 · Best Paper Award"
-  project="<https://wulin97.github.io/aff3dfunc>"
+  project="https://wulin97.github.io/aff3dfunc"
   description=""
 %}
 
@@ -45,7 +45,7 @@ Humanoid Interaction is currently reserved for future public work.
   title="Efficient Visuo-Tactile Learning Via Fine-Grained Alignment and Importance-Aware Token Retention"
   authors="Jingzhi Ruan, <strong>Lin Wu</strong>, Dezong Zhao, Fan Guo, Wenjing Zhao, David Flynn"
   venue="ICASSP 2026"
-  paper="<https://doi.org/10.1109/ICASSP55912.2026.11461029>"
+  paper="https://doi.org/10.1109/ICASSP55912.2026.11461029"
   description=""
 %}
 
@@ -56,8 +56,8 @@ Humanoid Interaction is currently reserved for future public work.
   title="SegMo: Segment-aligned Text to 3D Human Motion Generation"
   authors="Bowen Dang, <strong>Lin Wu</strong>, Xiaohang Yang, Zheng Yuan, Zhixiang Chen"
   venue="WACV 2026"
-  project="<https://wulin97.github.io/segmo>"
-  paper="<https://arxiv.org/pdf/2512.21237>"
+  project="https://wulin97.github.io/segmo"
+  paper="https://arxiv.org/pdf/2512.21237"
   description=""
 %}
 
@@ -68,7 +68,7 @@ Humanoid Interaction is currently reserved for future public work.
   title="Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search"
   authors="Zhihao Lin, <strong>Lin Wu</strong>, Zhen Tian, Alessio Lomuscio, Jianglin Lan"
   venue="AAMAS 2026"
-  paper="<https://dl.acm.org/doi/abs/10.65109/TAVV6081>"
+  paper="https://dl.acm.org/doi/abs/10.65109/TAVV6081"
   description=""
 %}
 
@@ -79,7 +79,7 @@ Humanoid Interaction is currently reserved for future public work.
   title="Geometry-Aware Adaptation of Vision Foundation Models for 3D Affordance Perception"
   authors="<strong>Lin Wu</strong>, Zhihao Lin, Mahmud Zango, Yanping Wu, Jianglin Lan"
   venue="IEEE SMC 2026"
-  paper="<https://eprints.gla.ac.uk/390125/1/390125.pdf>"
+  paper="https://eprints.gla.ac.uk/390125/1/390125.pdf"
   description=""
 %}
 
@@ -90,7 +90,7 @@ Humanoid Interaction is currently reserved for future public work.
   title="ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction"
   authors="Yanping Wu, Meiting Dang, <strong>Lin Wu</strong>, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei"
   venue="IEEE Transactions on Multimedia, 2026"
-  paper="<https://ieeexplore.ieee.org/abstract/document/11643558>"
+  paper="https://ieeexplore.ieee.org/abstract/document/11643558"
   description=""
 %}
 
