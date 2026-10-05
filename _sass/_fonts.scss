@@ -1,0 +1,33 @@
+/* Lato (SIL Open Font License): self-hosted to avoid third-party font requests.
+   Paths are relative to assets/css/main.css. See assets/fonts/lato/OFL.txt. */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/lato/lato-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lato/lato-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/lato/lato-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lato/lato-bold-italic.woff2") format("woff2");
+}

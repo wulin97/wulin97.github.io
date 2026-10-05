@@ -4,23 +4,20 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
+
+  - title: "Publications"
+    url: "/#publication"
 
   - title: "Education"
-    url: "/#-education"
+    url: "/#education"
   
   - title: "Experience"
-    url: "/#-experience"
+    url: "/#experience"
 
-  - title: "Publication"
-    url: "/#-publication"
+  - title: "Awards"
+    url: "/#awards-and-honors"
 
-  - title: "Teaching"
-    url: "/#-teaching"
-
-  - title: "Talk"
-    url: "/#-talk"
-    
-  - title: "Reference"
-    url: "/#-reference"
+  - title: "Service and Teaching"
+    url: "/#service-and-teaching"
 

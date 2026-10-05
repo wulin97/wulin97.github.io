@@ -17,47 +17,76 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my homepage!
+I am a PhD candidate at the University of Glasgow, supervised by Dr. Jianglin Lan, and currently a visiting researcher at the Robotics Institute, Carnegie Mellon University, hosted by Prof. Changliu Liu.
+My research focuses on interactive embodied intelligence, including humanoid interaction, human motion generation, and interaction understanding, with broader interests in multi-agent interaction.
 
-I'm a PhD student at the University of Glasgow, supervised by Dr. [Jianglin Lan](https://scholar.google.co.uk/citations?user=Z7kvat4AAAAJ&hl=en), focusing on multimodal understanding & generation.
-<!-- Before this, I worked as an Algorithm Engineer at Huawei from Jun. 2022 to Sep. 2024.
-I completed my Master's at Southeast University in China, under Prof. [Changyin Sun](https://www.researchgate.net/profile/Changyin-Sun) and [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ). -->
+# News
 
-# 🔥 News
+{: .news-title}
 
-- *2026.01*: &nbsp;🎉🎉 Happy New Year! excited to be selected as the recipient  of **Travel Grant Award** at [WACV 2026](https://wacv.thecvf.com/).
-- *2025.12*: &nbsp;🎉🎉 Our collaborative work on [Multi-Agent Coordination](https://openreview.net/forum?id=00sD7N1H46) has been accepted to AAMAS 2026!
-- *2025.11*: &nbsp;🎉🎉 Our collaborative work on [Text-to-motion Generation](https://arxiv.org/pdf/2512.21237) has been accepted to WACV 2026!
-- *2025.10*: &nbsp;🎉🎉 thrilled to share our paper has been selected as the **Best Paper Award** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/awards/)!!
-- *2025.09*: &nbsp;🎉🎉 our work on [Learning Interaction Dynamics for Motion Diffusion](https://arxiv.org/pdf/2507.01737) has been accepted as a poster at NeurIPS 2025!!
-- *2025.07*: &nbsp;🎉🎉 excited to be at [Technische Universität München (TUM)](https://www.asg.ed.tum.de/lfk/home/) as a Visiting PhD Researcher, supported by [Royal Society of Edinburgh](https://rse.org.uk/). Many thanks to Dr. Lan and [Dr. Feng](hhttps://yuzzfeng.github.io/) for providing this opportunity!
-- *2025.07*: &nbsp;🎉🎉 our work on affordance learning has been accepted as a full paper at [ACM Multimedia (MM) 2025](https://acmmm2025.org/)!
-- *2024.10*: &nbsp;🎉🎉 Beginning a new journey at the [Artificial Intelligence and Robotics (AIR) Lab](https://air-lan.github.io/AIR-Lab/) at UoG!
-- *2024.07*: &nbsp;🎉🎉 honored to receive PhD scholarship, including ~ £30k tuition fee waiver and £20k stipend annually, awarded by the CoSE/EPSRC.
+- <time datetime="2026-10">Oct. 2026</time> Started my research visit at the [Robotics Institute, Carnegie Mellon University](https://www.ri.cmu.edu/), hosted by Prof. Changliu Liu.
+- <time datetime="2026-02">Feb. 2026</time> Received the **Graduate School Mobility Scholarship** from the University of Glasgow.
+- <time datetime="2025-12">Dec. 2025</time> Our collaborative work on [multi-agent coordination](https://dl.acm.org/doi/abs/10.65109/TAVV6081) was accepted to AAMAS 2026.
+- <time datetime="2025-10">Oct. 2025</time> Our paper received the **Best Paper Award** at [ACM Multimedia (MM) 2025](https://acmmm2025.org/awards/).
+- <time datetime="2025-09">Sep. 2025</time> Our work on [interaction dynamics for motion diffusion](https://neurips.cc/virtual/2025/loc/san-diego/poster/117147) was accepted to NeurIPS 2025.
+{: .news-list}
 
-# 📖 Education
+# Publications
 
-- *2024.10 - present*, [University of Glasgow (UoG)](https://www.gla.ac.uk/explore/awardsandrankings/), Elec & Elec Engineering, Ph.D student, Glasgow, United Kingdom.
-- *2019.09 - 2022.06*, [Southeast University (SEU)](https://www.seu.edu.cn/english/22456/list.htm), Control Engineering, M.E, Nanjing, China. [GPA: 3.77/4.0]
-- *2015.09 - 2019.06*, [Wuhan University of Technology (WUT)](http://english.whut.edu.cn/abo/), Automation, B.E, Wuhan, China. [GPA: 3.90/4.0, Rank: 5/220]
-- *2017.02 - 2019.06*, [Central China Normal University (CCNU)](http://english.ccnu.edu.cn/About/About_CCNU.htm), Chinese Language and literature, B.A, Wuhan, China.
-
-# 💻 Experience
-
-- *2025.07 - 2025.08*, [TUM](https://www.asg.ed.tum.de/lfk/home/), Visiting PhD Researcher, Munich, Germany.
-<!-- - *2022.06 - 2024.09*, [Huawei](https://www.huawei.com/en/corporate-information), Engineer (Full-time), Nanjing, China.
-- *2021.04 - 2021.07*, [Arcsoft](https://www.arcsoft.com/corporate/about.html), Image Algorithm (Intern), Nanjing, China
-- *2020.06 - 2020.08*, [Sinovation Ventures · DeeCamp](https://www.sinovationventures.com/ai), 3D Vision Algorithm (Intern), Virtual.
-- *2019.03 - 2019.06*, [Xiaomi](https://www.mi.com/uk/about/), Software Engineer (Intern), Wuhan, China. -->
-
-# 📝 Publication
+{: #publication .publications-title}
 
 {% include_relative publication.md %}
 
-# 🎖️ Honor and Award
+# Education
 
-- Best Paper Award, ACM MM, 2025.10
-- PhD Scholarship (Full Tuition Waiver + Stipend), CoSE and EPSRC, From 2024.10
+{: .education-title}
+
+{% include_relative education.md %}
+
+# Experience
+
+{: .experience-title}
+
+{% include_relative experience.md %}
+
+# Awards and Honors
+
+{: .timeline-title}
+
+<ul class="simple-list">
+  <li class="simple-list-item">
+    <time class="item-date" datetime="2026-02">Feb. 2026</time>
+    <div class="item-content">
+      <strong>Graduate School Mobility Scholarship</strong>
+      <span>University of Glasgow · Research visit to Carnegie Mellon University</span>
+    </div>
+  </li>
+
+  <li class="simple-list-item">
+    <time class="item-date" datetime="2026-01">Jan. 2026</time>
+    <div class="item-content">
+      <strong>Broadening Participation Award</strong>
+      <span>WACV 2026 · $1,500 travel support and registration fee waiver</span>
+    </div>
+  </li>
+
+  <li class="simple-list-item">
+    <time class="item-date" datetime="2025-10">Oct. 2025</time>
+    <div class="item-content">
+      <strong>Best Paper Award</strong>
+      <span>ACM Multimedia (MM) 2025</span>
+    </div>
+  </li>
+
+  <li class="simple-list-item">
+    <time class="item-date" datetime="2024-10">Oct. 2024</time>
+    <div class="item-content">
+      <strong>PhD Scholarship</strong>
+      <span>Full tuition waiver and stipend · CoSE/EPSRC</span>
+    </div>
+  </li>
+</ul>
+
 <!-- - Shanghai Zhangjiang Hi-Tech Scholarship, 2022.06 -->
 <!-- - Huawei Scholarship, 2022.06 -->
 <!-- - China Electronics Technology Group Corporation LES Scholarship, 2021.06 -->
@@ -78,20 +107,25 @@ I completed my Master's at Southeast University in China, under Prof. [Changyin 
 </pre>
 </details> -->
 
-# ✨ Teaching Assistant
+# Service and Teaching
 
-- ENG5220 Real Time Embedded Programming with Prof. Bernd Porr, UoG, 2025 Spring
-- ENG2083 Introductory Programming 2 with Prof. David Flynn, UoG, 2025 Autumn
-- ENG1026_9 Engineering Skills 1 Robotics & AI with Dr. Euan Mcgookin, UoG, 2025 Autum
-- Nonlinear System Analysis, with Prof. Changyin Sun & Teng Wang, SEU, 2022 Spring
+{: .timeline-title}
 
-# 💬 Talk
-
-- Open-Vocabulary 3D Affordance Understanding., ACM MM, 2025.10
-- Transformer and LLM Architecture, Data Storage Research Department, Huawei, 2023.10
-
-# 💕 Reference
-
-- [Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/), Assistant professor at James Watt School of Engineering, University of Glasgow, U.K
-<!-- - [Hazel Doughty](https://hazeldoughty.github.io/), Assistant professor at  Leiden Institute for Advanced Computer Science, Leiden University, Netherlands -->
-<!-- - [Teng Wang](https://scholar.google.co.uk/citations?hl=zh-CN&user=hpF7i8sAAAAJ), Associate professor at School of Automation, Southeast University, China -->
+<ul class="simple-list">
+  <li class="simple-list-item">
+    <span class="item-date">Autumn 2025</span>
+    <div class="item-content"><strong>ENG2083 Introductory Programming 2</strong><span>Teaching assistant with Prof. David Flynn · UoG</span></div>
+  </li>
+  <li class="simple-list-item">
+    <span class="item-date">Autumn 2025</span>
+    <div class="item-content"><strong>ENG1026_9 Engineering Skills 1 Robotics & AI</strong><span>Teaching assistant with Dr. Euan Mcgookin · UoG</span></div>
+  </li>
+  <li class="simple-list-item">
+    <span class="item-date">Spring 2025</span>
+    <div class="item-content"><strong>ENG5220 Real Time Embedded Programming</strong><span>Teaching assistant with Prof. Bernd Porr · UoG</span></div>
+  </li>
+  <li class="simple-list-item">
+    <span class="item-date">Spring 2022</span>
+    <div class="item-content"><strong>Nonlinear System Analysis</strong><span>Teaching assistant with Prof. Changyin Sun and Teng Wang · SEU</span></div>
+  </li>
+</ul>

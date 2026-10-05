@@ -1,0 +1,17 @@
+{% assign institution_logo = nil %}
+{% if include.logo %}{% assign institution_logo = site.static_files | where: 'path', include.logo | first %}{% endif %}
+{% assign institution_heading = include.heading | default: 'h3' %}
+<li class="experience-row">
+  <div class="experience-row__identity{% if institution_logo %} experience-row__identity--logo{% endif %}" aria-hidden="true">
+    {% if institution_logo %}<img src="{{ include.logo | relative_url }}" alt="" loading="lazy" decoding="async">{% else %}<span>{{ include.mark | escape }}</span>{% endif %}
+  </div>
+  <div class="experience-row__body">
+    <div class="experience-row__heading">
+      <{{ institution_heading }}><a href="{{ include.url | escape }}">{{ include.institution | escape }}</a></{{ institution_heading }}>
+      <span class="experience-row__dates">{{ include.dates | escape }}</span>
+    </div>
+    <p class="experience-row__role">{{ include.role | escape }}{% if include.type %}<span class="experience-row__type">{{ include.type | escape }}</span>{% endif %}</p>
+    {% if include.detail %}<p class="experience-row__detail">{{ include.detail | escape }}</p>{% endif %}
+    <p class="experience-row__location">{{ include.location | escape }}</p>
+  </div>
+</li>

@@ -1,0 +1,30 @@
+{% assign publication_image_path = '/images/pubs/' | append: include.image %}
+{% assign publication_image = site.static_files | where: 'path', publication_image_path | first %}
+{% assign publication_title_url = include.paper | default: include.project | default: include.code %}
+<article class="publication-card" data-publication-id="{{ include.id | escape }}" data-tags="{{ include.tags | escape }}">
+  <div class="publication-card__image">
+    {% if publication_image %}
+    <img src="{{ publication_image_path | relative_url }}" alt="{{ include.title | escape }} — overview" loading="lazy" decoding="async">
+    {% else %}
+    <div class="publication-card__placeholder" role="img" aria-label="Publication illustration forthcoming">
+      <svg width="44" height="36" viewBox="0 0 44 36" fill="none" aria-hidden="true"><rect x="1" y="1" width="42" height="34" rx="4" stroke="currentColor"/><circle cx="14" cy="12" r="3" stroke="currentColor"/><path d="M5 29l10-10 7 7 8-12 9 15" stroke="currentColor" stroke-linejoin="round"/></svg>
+      <span>Image coming soon</span>
+    </div>
+    {% endif %}
+  </div>
+  <div class="publication-card__content">
+    <h2 class="publication-card__title">{% if publication_title_url %}<a href="{{ publication_title_url | escape }}">{{ include.title | escape }}</a>{% else %}{{ include.title | escape }}{% endif %}</h2>
+    <div class="publication-card__author-row">
+      <p class="publication-card__authors" id="authors-{{ include.id | escape }}">{{ include.authors }}</p>
+      <button class="publication-card__author-toggle" type="button" aria-controls="authors-{{ include.id | escape }}" aria-expanded="false" aria-label="Expand author list" hidden>▶</button>
+    </div>
+    <div class="publication-card__links">
+      {% if include.project %}<a href="{{ include.project | escape }}">Homepage</a>{% endif %}
+      {% if include.code %}<a href="{{ include.code | escape }}">Code</a>{% endif %}
+      {% if include.paper %}<a href="{{ include.paper | escape }}">Paper</a>{% endif %}
+      {% if include.citation %}<span class="show_paper_citations" data="{{ include.citation | escape }}"></span>{% endif %}
+    </div>
+    <p class="publication-card__venue">{{ include.venue | escape }}</p>
+    {% if include.description and include.description != '' %}<p class="publication-card__description">{{ include.description | escape }}</p>{% endif %}
+  </div>
+</article>
