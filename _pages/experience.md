@@ -43,7 +43,7 @@ logo 路径已预设，将对应图片放入 images/experience 后重新构建�
         type="Full-time"
         location="Nanjing, China"
       %}
-      {% include experience-row.html
+      <!-- {% include experience-row.html
         institution="Arcsoft"
         mark="Arcsoft"
         logo="/images/experience/arcsoft.png"
@@ -72,7 +72,7 @@ logo 路径已预设，将对应图片放入 images/experience 后重新构建�
         role="Software Engineer"
         type="Internship"
         location="Wuhan, China"
-      %}
+      %} -->
     </ul>
   </section>
 </div>
