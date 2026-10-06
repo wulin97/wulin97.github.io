@@ -33,7 +33,7 @@ Humanoid Interaction is currently reserved for future public work.
   image="aff3dfunc.png"
   title="Open-Vocabulary 3D Affordance Understanding via Functional Text Enhancement and Multilevel Representation Alignment"
   authors="<strong>Lin Wu</strong>, Wei Wei, Peizhuo Yu, Jianglin Lan"
-  venue="ACM Multimedia (MM) 2025 · Best Paper Award"
+  venue="ACM MM 2025 · Best Paper Award"
   project="https://wulin97.github.io/aff3dfunc"
   description=""
 %}
@@ -89,7 +89,7 @@ Humanoid Interaction is currently reserved for future public work.
   image="esia.png"
   title="ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction"
   authors="Yanping Wu, Meiting Dang, <strong>Lin Wu</strong>, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei"
-  venue="IEEE Transactions on Multimedia, 2026"
+  venue="TMM, 2026"
   paper="https://ieeexplore.ieee.org/abstract/document/11643558"
   description=""
 %}
